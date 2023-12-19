@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      <!--let arr1 = [23,45];
+    let arr2 = [44,55,667,77];
+
+    //1.1 написать код который проверяет длину массивов и выводит сообщение в котором элементов больше
+    //1.2 дописать вариант если массивы равны и вывести отдельное сообщение если массивы пустые  -->
+
+</head>
+<body>
+    
+    <script>
+        let arr1 = [23, 45];
+        let arr2 = [44, 55, 667, 77];
+
+//Перевірка довжини масивів
+if (arr1.length > arr2.length) {
+    console.log("В масиві arr1 більше елементів.");
+} else if (arr1.length < arr2.length) {
+    console.log("В масиві arr2 більше елементів.");
+} 
+
+// масиви пусті
+if (arr1.length === 0 && arr2.length === 0) {
+    console.log("Обидва масиви пусті.");
+} else if (arr1.length === 0) {
+    console.log("Масив arr1 пуст.");
+} else if (arr2.length === 0) {
+    console.log("Масив arr2 пуст.");
+}
+    </script>
+
+    
+</body>
+</html>

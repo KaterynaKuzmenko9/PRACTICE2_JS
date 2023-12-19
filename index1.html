@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- // через prompt - Пользователь вводит 3 числа. 
+   // Из этих чисел найти максимальное и выдать сообщение какое из наибольшее. 
+   // Учесть вариант равенства чисел -->
+
+</head>
+<body>
+    <script>
+
+        let num1 = 5;
+        let num2 = 8;
+        let num3 = 3;
+        
+        let maxNumber = (num1 >= num2 && num1 >= num3) ? num1 : (num2 >= num1 && num2 >= num3) ? num2 : num3;
+        
+        
+        if (num1 === num2 && num2 === num3) {
+            console.log("Всі числі рівні.");
+        } else {
+            console.log("Найбільше число: " + maxNumber);
+        }
+        
+            </script>
+    
+</body>
+</html>

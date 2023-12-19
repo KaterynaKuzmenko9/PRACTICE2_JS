@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <!-- // Пользователь вводит в текстовое поле время в часах (например 18). 
+		// Если время больше 17, то выводится сообщение «Добрый вечер». 
+		// В любых других случаях — «Добрый день». -->
+
+</head>
+<body>
+    <script>
+        let time = prompt('Введіть час в годинах');
+
+        if (time >= 0 && time <= 24) {
+          if (time > 17) 
+              alert('Добрий вечір!');   
+          }    
+          else if (time >= 5 && time <= 17) {
+              alert('Добрий день!');
+          } else {
+              alert('Доброї ночі!');
+          }
+
+  </script>
+    
+</body>
+</html>
