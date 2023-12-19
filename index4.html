@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- // есть массив в котором числа например
+    const arr1 = [2,4,6,8,10];
+    const arr2 = [2,4,6,8,9,10];
+    // переменная ответа
+    let result = false;
+    // прописать логику в котором идет проверка на наличие не четных чисел 
+
+    // console.log(false) в случае проверки arr1 (нет, ни одно не четного числа в массиве)
+    // console.log(true) в случае проверки arr2 (да, хотя бы одно число в массиве не четное) -->
+
+</head>
+<body>
+    <script>
+       function name (arr) {
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] % 2 !== 0) {
+            return true; 
+        }
+    }
+    return false; 
+}
+
+const arr1 = [2, 4, 6, 8, 10];
+const arr2 = [2, 4, 6, 8, 9, 10];
+
+let resultArr1 = name(arr1);
+let resultArr2 = name(arr2);
+
+console.log(resultArr1); 
+console.log(resultArr2);
+
+    </script>
+    
+</body>
+</html>
